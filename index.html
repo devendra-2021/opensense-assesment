@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <title>Open Sence Labs Assingnments</title>
+    <link rel="javascript" href="">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1 class="head">Job Application</h1>
+    <div class="container">
+        <form action="index.php" method="POST">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="Email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="Email" name="Email" placeholder="Your Email.." required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="LinkedIn">Linkedin profile Link</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="LinkedIn" name="LinkedIn profile" placeholder="Your LinkedIn .." required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="Drupal">Drupal.org profile Link</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="Drupal" name="Drupal.org profile" placeholder="Drupal.org profile .." required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="Position">Position Applying For</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="Position" name="Position Applying" placeholder="Position Applying For .." required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="Start">When Can You Start</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="Start" name="When can you start" placeholder="When Can You Start .." required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="mob">Mobile Number</label>
+            </div>
+            <div class="col-75">
+              <input type="number" id="mob" name="Mobile Number" placeholder="Mobile Number .." required>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Current City</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="City" required>
+                <option value="australia">Delhi</option>
+                <option value="canada">Other</option>
+                 
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="city">City Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="city" name="City Name" placeholder="City Name .."  >
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="countries">Are You Willing to Relocate</label>
+            </div>
+            <div class="col-75">
+              <select id="countries" name="Relocate" >
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+                <option value="Not Sure">Not Sure</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lcompany">Last Company you worked for</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lcompany" name="Last Company" placeholder="Last company .." required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Comments</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="Comments" placeholder="Write something.." style="height:200px" required></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+</body>
+</html>
